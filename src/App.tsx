@@ -17,7 +17,7 @@ import SemenjakAdaDirimu from './assets/images/semenjak-ada-dirimu.jpg';
 import DummyBoy from './assets/images/dummy-boy.jpg';
 import EverythingIKnowAboutLove from './assets/images/everything-i-know-about-love.jpg';
 import TheVanishingRace from './assets/images/the-vanishing-race.jpg';
-import { CloudRain, Drop, FileText, Plant, Timer } from '@phosphor-icons/react';
+import { Drop, FileText, Plant, Timer } from '@phosphor-icons/react';
 
 function App() {
   const [init, setInit] = useState(false);
