@@ -22,6 +22,8 @@ import AhmadFathur from './assets/images/people/ahmad-fathur.jpg';
 import AlfiansyahNabil from './assets/images/people/alfiansyah-nabil.jpg';
 import KamaelElandra from './assets/images/people/kamael-elandra.jpg';
 import RanggaCanavaro from './assets/images/people/rangga-canavaro.jpg';
+import Malik from './assets/images/people/malik.jpg';
+import Everyone from './assets/images/people/everyone.jpg';
 
 import { Drop, FileText, Plant, Timer } from '@phosphor-icons/react';
 
@@ -135,7 +137,7 @@ function App() {
         </>
       ),
       hobby: 'Videography',
-      image: 'https://placehold.co/600x400',
+      image: Malik,
       instagram: 'https://instagram.com/vlocitize',
       twitter: 'https://x.com/vlocitize',
       github: 'https://github.com/velolib',
@@ -178,7 +180,7 @@ function App() {
           <Section>
             <div className="flex flex-col justify-center items-center">
               <motion.img
-                src="https://placehold.co/600x400"
+                src={Everyone}
                 className="size-96 aspect-square rounded-3xl object-cover mb-4"
                 initial={{ opacity: 0, scale: 0.2 }}
                 whileInView={{
@@ -397,7 +399,7 @@ function App() {
                   <div className="flex items-center justify-center lg:justify-end">
                     <div className="w-full max-w-md aspect-video">
                       <iframe
-                        src="https://www.youtube.com/embed/gg40RWiaHRY?si=qo4ctEFLBfsj5Co7"
+                        src="https://www.youtube.com/embed/gW5VsOC9GBI?si=spH-nmx12IFNGNKu"
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
