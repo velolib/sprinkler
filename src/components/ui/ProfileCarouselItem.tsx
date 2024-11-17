@@ -6,7 +6,7 @@ export default function ProfileCarouselItem(
   profile: ProfileCarouselProps['profiles'][number]
 ) {
   return (
-    <div className="w-full flex rounded-xl h-full bg-white border border-neutral-300 overflow-hidden hover:border-neutral-400 transition-colors duration-200 text-neutral-950 drop-shadow-xl">
+    <div className="w-full flex rounded-xl h-full bg-white overflow-hidden text-neutral-950 drop-shadow-xl">
       <div className="flex flex-row h-full w-full pr-4">
         <div className="h-full">
           <img
@@ -29,7 +29,7 @@ export default function ProfileCarouselItem(
                   <img
                     src={profile.song.image}
                     alt={profile.song.title}
-                    className="aspect-square size-24 sm:size-16 rounded-md object-cover group-hover:scale-x-105 transition-transform duration-200"
+                    className="aspect-square size-24 sm:size-16 rounded-md object-cover group-hover:scale/-105 transition-transform duration-200"
                   />
                   <div>
                     <p className="text-2xl sm:text-sm font-semibold">

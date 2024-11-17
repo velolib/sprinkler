@@ -11,12 +11,18 @@ import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadBasic } from '@tsparticles/basic';
 import { useParticlesOptions } from './util/useParticleOptions';
 import Countdown from 'react-countdown';
-import HowToBeAHumanBeing from './assets/images/how-to-be-a-human-being.jpg';
-import VivaLaVida from './assets/images/viva-la-vida.jpg';
-import SemenjakAdaDirimu from './assets/images/semenjak-ada-dirimu.jpg';
-import DummyBoy from './assets/images/dummy-boy.jpg';
-import EverythingIKnowAboutLove from './assets/images/everything-i-know-about-love.jpg';
-import TheVanishingRace from './assets/images/the-vanishing-race.jpg';
+import HowToBeAHumanBeing from './assets/images/album/how-to-be-a-human-being.jpg';
+import VivaLaVida from './assets/images/album/viva-la-vida.jpg';
+import SemenjakAdaDirimu from './assets/images/album/semenjak-ada-dirimu.jpg';
+import DummyBoy from './assets/images/album/dummy-boy.jpg';
+import EverythingIKnowAboutLove from './assets/images/album/everything-i-know-about-love.jpg';
+import TheVanishingRace from './assets/images/album/the-vanishing-race.jpg';
+import ArfaAditya from './assets/images/people/arfa-aditya.jpg';
+import AhmadFathur from './assets/images/people/ahmad-fathur.jpg';
+import AlfiansyahNabil from './assets/images/people/alfiansyah-nabil.jpg';
+import KamaelElandra from './assets/images/people/kamael-elandra.jpg';
+import RanggaCanavaro from './assets/images/people/rangga-canavaro.jpg';
+
 import { Drop, FileText, Plant, Timer } from '@phosphor-icons/react';
 
 function App() {
@@ -69,7 +75,7 @@ function App() {
       title: 'Mutasi Slayer',
       description: 'Seorang pejuang dengan mutasi berbagai sekolah',
       hobby: 'Main Voli',
-      image: 'https://placehold.co/600x400',
+      image: AhmadFathur,
       instagram: 'https://instagram.com/zyxlyenth',
       song: {
         title: 'Take A Slice',
@@ -83,7 +89,7 @@ function App() {
       title: 'Sleeper Agent',
       description: 'Life is Roblox',
       hobby: 'Sleeping',
-      image: 'https://placehold.co/600x400',
+      image: AlfiansyahNabil,
       instagram: 'https://instagram.com/alfiansyah.najmi',
       song: {
         title: 'Viva La Vida',
@@ -97,7 +103,7 @@ function App() {
       title: 'Lubarf',
       description: 'Ayo maju maju',
       hobby: '',
-      image: 'https://placehold.co/600x400',
+      image: ArfaAditya,
       song: {
         title: 'Semenjak Ada Dirimu',
         artist: 'Hivi!',
@@ -110,7 +116,7 @@ function App() {
       title: 'Galaxy Ranger',
       description: 'Saya adalah manusia biasa yang menjelajahi galaksi',
       hobby: 'Designing',
-      image: 'https://placehold.co/600x400',
+      image: KamaelElandra,
       instagram: 'https://instagram.com/ndra4you_',
       song: {
         title: 'MALA',
@@ -145,7 +151,7 @@ function App() {
       title: 'Pemburu Pop Mie',
       description: 'Aku adalah si Hilux Rangga',
       hobby: 'Drawing',
-      image: 'https://placehold.co/600x400',
+      image: RanggaCanavaro,
       instagram: 'https://instagram.com/rangga_aja34',
       song: {
         title: 'Goodbye',
