@@ -391,7 +391,7 @@ function App() {
                       fokus pada aspek pertanian lainnya.
                     </p>
                     <div className="w-full flex justify-center sm:justify-start">
-                      <a className="bg-white border border-neutral-300 overflow-hidden hover:border-neutral-400 px-4 py-2 text-gengar-950 flex items-center no-underline select-none cursor-pointer text-lg rounded-md w-min text-nowrap hover:text-gengar-950 transition-colors duration-200">
+                      <a href="https://docs.google.com/document/d/1dwY_Hid9XXm54GstZXj_DjdN2dVNJXQdpg7twep9MlU/edit?usp=sharing" target="_blank" className="bg-white border border-neutral-300 overflow-hidden hover:border-neutral-400 px-4 py-2 text-gengar-950 flex items-center no-underline select-none cursor-pointer text-lg rounded-md w-min text-nowrap hover:text-gengar-950 transition-colors duration-200">
                         <FileText className="size-6 mr-2" />
                         Baca Draft Penelitian
                       </a>
