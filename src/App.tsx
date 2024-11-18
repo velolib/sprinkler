@@ -106,6 +106,7 @@ function App() {
       description: 'Ayo maju maju',
       hobby: '',
       image: ArfaAditya,
+      instagram: 'https://instagram.com/08_rfa',
       song: {
         title: 'Semenjak Ada Dirimu',
         artist: 'Hivi!',
